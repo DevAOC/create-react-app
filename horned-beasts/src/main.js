@@ -40,12 +40,5 @@ class Main extends Component {
     return renderBeastArr;
   }
 }
-// class Main extends Component {
-//   render() {
-//     arr.forEach((item) => {
-//       return <HornedBeast title="" imageUrl="" description="" />;
-//     });
-//   }
-// }
 
 export default Main;

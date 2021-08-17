@@ -1,4 +1,4 @@
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './header';
 import Main from './main';
 import Footer from './footer';
@@ -8,7 +8,6 @@ function App() {
     <>
       <Header title="Horned Beasts Project" />
       <Main />
-      {/* BeastIterations="beastArr.length" To be put above*/}
       <Footer author="Antoine Charette" />
     </>
   );
